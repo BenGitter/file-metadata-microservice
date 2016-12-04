@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>File Metadata Microservice - FCC Project</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+  <form enctype="multipart/form-data" action="/upload" method="post">
+    <input id="inputfile" type="file" name="upfile" />
+    <label id="labelfile" for="inputfile">
+      <div class="wrapper">
+        <div class="content">
+          <i class="fa fa-upload"></i>
+        </div>
+      </div>
+    </label>
+
+    <input id="submit" type="submit" value="Upload">
+  </form>
+
+  <script
+			  src="https://code.jquery.com/jquery-3.1.1.min.js"
+			  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+			  crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
